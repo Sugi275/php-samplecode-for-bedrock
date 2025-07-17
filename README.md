@@ -52,7 +52,11 @@ aws configure
 ### PHPプログラムの実行方法
 
 ```bash
-php product_search.php
+使用法: php product_search.php 商品名
+```
+
+```bash
+php product_search.php にがうり
 ```
 
 ## ファイル構成
