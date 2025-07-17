@@ -1,0 +1,12 @@
+{
+    "name": "phpbedrock/product-search",
+    "description": "PHP CLI application for product search using Amazon Bedrock",
+    "require": {
+        "aws/aws-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProductSearch\\": "src/"
+        }
+    }
+}

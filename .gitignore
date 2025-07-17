@@ -1,0 +1,46 @@
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+/logs/
+
+# Cache directories
+/cache/
+/tmp/
+
+# Config files (if they contain sensitive data)
+config/local.php
+config/database.php
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# PHP specific
+*.php~
+.phpunit.result.cache
